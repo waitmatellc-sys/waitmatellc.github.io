@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>WaitMateLLC – Pharmacy Delivery in Oregon</title>
-  <link rel="stylesheet" href="style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WaitMateLLC – Prescription Delivery in Oregon</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>WaitMateLLC</h1>
+    <div class="logo">WaitMateLLC</div>
     <nav>
       <a href="#about">About</a>
       <a href="#how">How It Works</a>
@@ -17,46 +17,39 @@
   </header>
 
   <section class="hero">
-    <h2>Prescription Pickup & Delivery, Made Easy</h2>
-    <p>Serving Oregon with care, speed, and reliability.</p>
+    <h1>Fast, Reliable Prescription Delivery</h1>
+    <p>Skip the line. Stay safe. Let WaitMateLLC handle your pharmacy runs.</p>
     <a href="#contact" class="cta-button">Request a Delivery</a>
   </section>
 
-  <section id="about">
-    <h3>About Us</h3>
-    <p>WaitMateLLC was founded to help people get their medications without the hassle of waiting in line. Whether you're busy, sick, or just need a hand — we're here to help.</p>
+  <section id="about" class="info-section">
+    <h2>About Us</h2>
+    <p>We’re a local Oregon-based service helping people get their medications delivered quickly and securely. Whether you're busy, sick, or just need a hand — we're here to help.</p>
   </section>
 
-  <section id="how">
-    <h3>How It Works</h3>
-    <ul>
-      <li><strong>Step 1:</strong> Submit a delivery request</li>
-      <li><strong>Step 2:</strong> We pick up your prescription</li>
-      <li><strong>Step 3:</strong> We deliver it to your door</li>
-    </ul>
+  <section id="how" class="info-section">
+    <h2>How It Works</h2>
+    <div class="steps">
+      <div><strong>1.</strong> Submit a request</div>
+      <div><strong>2.</strong> We pick up your prescription</div>
+      <div><strong>3.</strong> We deliver it to your door</div>
+    </div>
   </section>
 
-  <section id="contact">
-    <h3>Request a Delivery</h3>
+  <section id="contact" class="info-section">
+    <h2>Request a Delivery</h2>
     <form>
-      <label for="name">Full Name:</label>
-      <input type="text" id="name" name="name" required>
-
-      <label for="phone">Phone Number:</label>
-      <input type="tel" id="phone" name="phone" required>
-
-      <label for="address">Delivery Address:</label>
-      <input type="text" id="address" name="address" required>
-
-      <label for="pharmacy">Pharmacy Name:</label>
-      <input type="text" id="pharmacy" name="pharmacy" required>
-
-      <label for="notes">Prescription Details:</label>
-      <textarea id="notes" name="notes"></textarea>
-
+      <input type="text" placeholder="Full Name" required />
+      <input type="tel" placeholder="Phone Number" required />
+      <input type="text" placeholder="Delivery Address" required />
+      <input type="text" placeholder="Pharmacy Name" required />
+      <textarea placeholder="Prescription Details"></textarea>
       <button type="submit">Submit Request</button>
     </form>
   </section>
 
   <footer>
-   
+    <p>&copy; 2025 WaitMateLLC. All rights reserved.</p>
+  </footer>
+</body>
+</html>
